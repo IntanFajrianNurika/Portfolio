@@ -1,0 +1,36 @@
+.services .box
+{
+padding: 50px;
+}
+
+.services .box h2
+{
+    margin: 20px 0 20px 0;
+
+}
+
+.services .box p {
+    letter-spacing: 2px;
+    transition: 0.5s;
+}
+
+.services .box i 
+{
+    font-size: 30px;
+    margin-top: 20px;
+    transition: 0.3s;
+    opacity: 0;
+
+}
+
+.services .box :hover p
+{
+    color: white;
+}
+
+.services .box :hover i 
+{
+    opacity: 1;
+    color: white;
+}
+
